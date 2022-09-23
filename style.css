@@ -1,0 +1,116 @@
+/* RESETS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+/* CSS */
+
+body {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/images/bg-mobile.png");
+    background-repeat: repeat-y;
+}
+
+main {
+    max-width: 375px;
+    margin: 0.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-box{
+    width: 330px;
+    padding: 2.5rem;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 100px 10px 10px;
+}
+
+.logo{
+    margin-bottom: 2rem;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    background-color: hsl(229, 57%, 11%);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.storage-box{
+    color: hsl(243, 100%, 93%);
+    text-align: center;
+    width: 330px;
+    padding: 2rem 2rem 3rem 2rem;
+    background-color: hsl(228, 56%, 26%);
+    margin-top: 1rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.storage-box span{
+    font-weight: 700;
+}
+
+.pourcent{
+    background-color: hsl(229, 57%, 11%);
+    height: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.gb-info{
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gb-left p{
+    font-weight: 700;
+    color: hsl(229, 7%, 55%);
+    font-size: 1em;
+}
+
+.gb-left span{
+    color: hsl(229, 57%, 11%);
+    font-size: 2.5em;
+    padding-right: 0.5rem;
+}
+
+.gb-left{
+    width: 190px;
+    background-color: white;
+    position: absolute;
+    padding: 0.8rem 0.2rem 0.8rem 0.2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
